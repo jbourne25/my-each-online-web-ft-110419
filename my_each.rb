@@ -3,4 +3,5 @@ def my_each(collection)
   while collection.map do |i|
     yield collection[i]
     i = i + 1
-end
+  end
+end 
